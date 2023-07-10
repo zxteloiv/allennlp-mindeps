@@ -12,6 +12,9 @@ We remove some of the original functions such as CLI commands, FromParams, Lazy 
 data readers and, token embedders, trainers, cached-paths, fairness, and distributed training.
 The test cases are also removed due to some of the common dependencies.
 
+We follow the semantic versions of the original repo.
+And the new version starts from 2.11.0 while the original final version is 2.10.1.
+
 ## Original Package Overview
 
 <table>

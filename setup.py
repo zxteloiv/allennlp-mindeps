@@ -60,7 +60,7 @@ with open("allennlp/version.py", "r") as version_file:
     exec(version_file.read(), VERSION)
 
 setup(
-    name="allennlp-light",
+    name="allennlp-mindeps",
     version=VERSION["VERSION"],
     description="The minimized fork of AllenNLP.",
     long_description=open("README.md", encoding="utf-8").read(),
