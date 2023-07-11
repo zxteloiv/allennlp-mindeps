@@ -4,9 +4,9 @@ Please refer to the [repo](https://github.com/allenai/allennlp) for more details
 Although there's an AllenNLP-light variant that keeps part of the library work,
 it's still relied on a large number of dependencies.
 
-We keep the dependencies here to be minimized.
-Only the torch is basically needed.
-And the transformers, nltk, scipy are required for some of the metrics.
+We try to keep the minimized dependencies:
+- Only the torch is basically needed.
+- the transformers, nltk, scipy are required for some of the metrics.
 
 We remove some of the original functions such as CLI commands, FromParams, Lazy Generics,
 data readers and, token embedders, trainers, cached-paths, fairness, and distributed training.
